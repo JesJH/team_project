@@ -103,3 +103,5 @@ Making decisions as a group on next steps in the evening working sessions
 Documenting our thought process and required tasks for task assignment
 Notifying team members if you have difficulties with a task or meeting deadlines through Slack
 Daily touch points to discuss progress and adjust plans as needed to stay on schedule
+
+https://drive.google.com/file/d/190gJv4thgMIOYNTUbpBMdbryMI_hBkTv/view?usp=drive_link
