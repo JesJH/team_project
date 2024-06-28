@@ -108,6 +108,7 @@ https://drive.google.com/file/d/1Mf_1ckG_bjio2REA2NCYTYtKZy-3ahVA/view?usp=shari
 |-- .gitignore
 ```
 
+dev_Katya
 - **Data:** Contains the raw, processed and final data. For any data living in a database, make sure to export the tables out into the `sql` folder, so it can be used by anyone else.
 - **Experiments:** A folder for experiments
 - **Models:** A folder containing trained models or model predictions
@@ -115,3 +116,33 @@ https://drive.google.com/file/d/1Mf_1ckG_bjio2REA2NCYTYtKZy-3ahVA/view?usp=shari
 - **src:** Project source code
 - README: This file!
 - .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
+
+* **Data:** Contains the raw, processed and final data. For any data living in a database, make sure to export the tables out into the `sql` folder, so it can be used by anyone else.
+* **Experiments:** A folder for experiments
+* **Models:** A folder containing trained models or model predictions
+* **Reports:** Generated HTML, PDF etc. of your report
+* **src:** Project source code
+* README: This file!
+* .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
+
+Approach
+Identifying retail transaction data set Brainstorming questions that a retail business could have that can be answered using the data set
+
+Rules of Engagement
+Making decisions as a group on next steps in the evening working sessions Documenting our thought process and required tasks for task assignment Notifying team members if you have difficulties with a task or meeting deadlines through Slack Daily touch points to discuss progress and adjust plans as needed to stay on schedule
+
+Team Project Week 1 Video Links
+Jes: https://www.youtube.com/watch?v=jW25EXwkkh8
+
+#### Approach
+Identifying retail transaction data set
+Brainstorming questions that a retail business could have that can be answered using the data set
+
+### Rules of Engagement
+Making decisions as a group on next steps in the evening working sessions
+Documenting our thought process and required tasks for task assignment
+Notifying team members if you have difficulties with a task or meeting deadlines through Slack
+Daily touch points to discuss progress and adjust plans as needed to stay on schedule
+
+
+team-project-1
