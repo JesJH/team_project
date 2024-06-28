@@ -116,11 +116,11 @@ dev_Katya
 
 ### Team Project Week 1 Video Links
 
-Jes: https://www.youtube.com/watch?v=jW25EXwkkh8
-Katya: https://drive.google.com/file/d/1Mf_1ckG_bjio2REA2NCYTYtKZy-3ahVA/view?usp=sharing
-Zoey: https://drive.google.com/file/d/1mFkRBGdUwbk8QBUrvyQ2JPL7VIjgmc-M/view?usp=drive_link
+- Jes: https://www.youtube.com/watch?v=jW25EXwkkh8
+- Katya: https://drive.google.com/file/d/1Mf_1ckG_bjio2REA2NCYTYtKZy-3ahVA/view?usp=sharing
+- Zoey: https://drive.google.com/file/d/1mFkRBGdUwbk8QBUrvyQ2JPL7VIjgmc-M/view?usp=drive_link
 
-#### Approach
+### Approach
 Identifying retail transaction data set
 Brainstorming questions that a retail business could have that can be answered using the data set
 
