@@ -94,3 +94,5 @@ Work periods will also be used as opportunities for teams to collaborate and wor
 * README: This file!
 * .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
 
+Team Project Week 1 Video Link Zoey: https://drive.google.com/file/d/1mFkRBGdUwbk8QBUrvyQ2JPL7VIjgmc-M/view?usp=drive_link
+
