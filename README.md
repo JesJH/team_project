@@ -81,18 +81,6 @@ Work periods will also be used as opportunities for teams to collaborate and wor
 |-- .gitignore
 ```
 
-### Approach
-
-Identifying retail transaction data set Brainstorming questions that a retail business could have that can be answered using the data set
-
-### Rules of Engagement
-
-Making decisions as a group on next steps in the evening working sessions Documenting our thought process and required tasks for task assignment Notifying team members if you have difficulties with a task or meeting deadlines through Slack Daily touch points to discuss progress and adjust plans as needed to stay on schedule.
-
-### Team Project Week 1 Video Links:
-
-https://drive.google.com/file/d/1Mf_1ckG_bjio2REA2NCYTYtKZy-3ahVA/view?usp=sharing
-
 ### Project 2
 
 ```markdown
@@ -125,14 +113,12 @@ dev_Katya
 * README: This file!
 * .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
 
-Approach
-Identifying retail transaction data set Brainstorming questions that a retail business could have that can be answered using the data set
 
-Rules of Engagement
-Making decisions as a group on next steps in the evening working sessions Documenting our thought process and required tasks for task assignment Notifying team members if you have difficulties with a task or meeting deadlines through Slack Daily touch points to discuss progress and adjust plans as needed to stay on schedule
+### Team Project Week 1 Video Links
 
-Team Project Week 1 Video Links
 Jes: https://www.youtube.com/watch?v=jW25EXwkkh8
+Katya: https://drive.google.com/file/d/1Mf_1ckG_bjio2REA2NCYTYtKZy-3ahVA/view?usp=sharing
+Zoey: https://drive.google.com/file/d/1mFkRBGdUwbk8QBUrvyQ2JPL7VIjgmc-M/view?usp=drive_link
 
 #### Approach
 Identifying retail transaction data set
