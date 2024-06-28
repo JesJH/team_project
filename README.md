@@ -119,6 +119,7 @@ dev_Katya
 - Jes: https://www.youtube.com/watch?v=jW25EXwkkh8
 - Katya: https://drive.google.com/file/d/1Mf_1ckG_bjio2REA2NCYTYtKZy-3ahVA/view?usp=sharing
 - Zoey: https://drive.google.com/file/d/1mFkRBGdUwbk8QBUrvyQ2JPL7VIjgmc-M/view?usp=drive_link
+- Lynn: https://drive.google.com/file/d/190gJv4thgMIOYNTUbpBMdbryMI_hBkTv/view?usp=drive_link
 
 ### Approach
 Identifying retail transaction data set
@@ -129,11 +130,6 @@ Making decisions as a group on next steps in the evening working sessions
 Documenting our thought process and required tasks for task assignment
 Notifying team members if you have difficulties with a task or meeting deadlines through Slack
 Daily touch points to discuss progress and adjust plans as needed to stay on schedule
-
-Team Video Links - Lynn:
-
-https://drive.google.com/file/d/190gJv4thgMIOYNTUbpBMdbryMI_hBkTv/view?usp=drive_link
-=======
 
 team-project-1
 
