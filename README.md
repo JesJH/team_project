@@ -121,9 +121,12 @@ dev_Katya
 - Zoey: https://drive.google.com/file/d/1mFkRBGdUwbk8QBUrvyQ2JPL7VIjgmc-M/view?usp=drive_link
 - Lynn: https://drive.google.com/file/d/190gJv4thgMIOYNTUbpBMdbryMI_hBkTv/view?usp=drive_link
 
-### Approach
-Identifying retail transaction data set
-Brainstorming questions that a retail business could have that can be answered using the data set
+
+Team Project Week 1 Video Links
+Jes: https://www.youtube.com/watch?v=jW25EXwkkh8
+
+#### Approach
+Experiment with different machine learning models on the sales transaction data to identify customer segmentations and sales by each segment.
 
 ### Rules of Engagement
 Making decisions as a group on next steps in the evening working sessions
