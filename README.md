@@ -133,3 +133,16 @@ Daily touch points to discuss progress and adjust plans as needed to stay on sch
 
 
 
+Team Project Week 1 Video Links
+Jes: https://www.youtube.com/watch?v=jW25EXwkkh8
+
+#### Approach
+Experiment with different machine learning models on the sales transaction data to identify customer segmentations and sales by each segment.
+
+### Rules of Engagement
+Making decisions as a group on next steps in the evening working sessions
+Documenting our thought process and required tasks for task assignment
+Notifying team members if you have difficulties with a task or meeting deadlines through Slack
+Daily touch points to discuss progress and adjust plans as needed to stay on schedule
+
+
