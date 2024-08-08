@@ -137,3 +137,31 @@ Daily touch points to discuss progress and adjust plans as needed to stay on sch
 ## Team Project Week 2 Video Links
 
 - Lynn: https://drive.google.com/file/d/1b2OYET_xIkvFSSFwHkNXgD5dbmj0dpPG/view?usp=sharing
+
+## Team Project Week 2 - Machine Learning Model Guiding Questions
+
+- Lynn: 
+
+1. Objectives and Success Criteria:
+The primary objective is to predict sales based on customer demographics.Success is measured by minimizing prediction errors (e.g., mean squared error) and accurately categorizing customers into segments that drive the most sales.
+
+2. Feature Selection:
+Selected features are city, age, and income because they provide essential insights into customer demographics and purchasing power. 
+
+3. Handling Missing Values and Outliers:
+Ensured all missing values were handled through imputation techniques, and outliers were identified and either transformed or removed. Proper data cleaning ensured that the model could learn effectively without biases.
+
+4. Algorithm:
+Using a neural network model because of its ability to capture complex relationships between input and target variables. 
+
+5. Hyperparameter Tuning:
+Hyperparameter tuning method are used like Grid Search and by adjusting learning rates, batch sizes, and layer configurations. Cross-validation was also used to ensure that the model generalized well.
+
+4. Data Splitting:
+The dataset was split into training, validation, and test sets, with 20% of the data reserved for testing. This split ensures that the model’s performance is evaluated on unseen data and helps prevent overfitting.
+
+5. Ethical Considerations:
+Considered the potential biases, especially those related to demographic features like income and city to ensure that the model does not unfairly favor or disadvantage specific groups.
+
+6. Documentation:
+The machine learning pipeline from data preprocessing to model tuning was documented in the model doc, including the rationale behind feature selection, the steps taken for data cleaning, and the architecture of the neural network.
