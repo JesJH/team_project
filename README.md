@@ -137,7 +137,9 @@ Daily touch points to discuss progress and adjust plans as needed to stay on sch
 ## Team Project Week 2 Video Links
 
 - Lynn: https://drive.google.com/file/d/1b2OYET_xIkvFSSFwHkNXgD5dbmj0dpPG/view?usp=sharing
+
 - Carlos: https://drive.google.com/file/d/1p7i6Y0lpDXFwGj0p9kL3hDumCS5P-CUn/view?usp=sharing
+
 
 ## Team Project Week 2 - Machine Learning Model Guiding Questions
 
@@ -164,6 +166,7 @@ The dataset was split into training, validation, and test sets, with 20% of the 
 5. Ethical Considerations:
 Considered the potential biases, especially those related to demographic features like income and city to ensure that the model does not unfairly favor or disadvantage specific groups.
 
+
 6. Documentation:
 The machine learning pipeline from data preprocessing to model tuning was documented in the model doc, including the rationale behind feature selection, the steps taken for data cleaning, and the architecture of the neural network.
 
@@ -188,3 +191,8 @@ The machine learning pipeline from data preprocessing to model tuning was docume
 
 
 9. Ethical Implications: Predicting product ratings could lead to biased recommendations if the model unintentionally amplifies existing biases in the data, potentially disadvantaging certain customer groups or promoting products unfairly
+=======
+
+6. Documentation:
+The machine learning pipeline from data preprocessing to model tuning was documented in the model doc, including the rationale behind feature selection, the steps taken for data cleaning, and the architecture of the neural network.
+
