@@ -138,6 +138,9 @@ Daily touch points to discuss progress and adjust plans as needed to stay on sch
 
 - Lynn: https://drive.google.com/file/d/1b2OYET_xIkvFSSFwHkNXgD5dbmj0dpPG/view?usp=sharing
 
+- Carlos: https://drive.google.com/file/d/1p7i6Y0lpDXFwGj0p9kL3hDumCS5P-CUn/view?usp=sharing
+
+
 ## Team Project Week 2 - Machine Learning Model Guiding Questions
 
 - Lynn: 
@@ -163,5 +166,33 @@ The dataset was split into training, validation, and test sets, with 20% of the 
 5. Ethical Considerations:
 Considered the potential biases, especially those related to demographic features like income and city to ensure that the model does not unfairly favor or disadvantage specific groups.
 
+
 6. Documentation:
 The machine learning pipeline from data preprocessing to model tuning was documented in the model doc, including the rationale behind feature selection, the steps taken for data cleaning, and the architecture of the neural network.
+
+
+- Carlos: 
+
+1. Objectives: This project section explores predicting future product ratings from retail transaction data to enhance business decisions.
+
+2. Business Applications: Potential uses include personalized recommendations, inventory management, targeted promotions, and loyalty program enhancements.
+
+3. Modeling Approach: Multiple classification models, including Logistic Regression, Random Forest, Gradient Boost, and Neural Networks, were tested in two runs. Detailed modelling steps and methodologt can be found in the Ratings Predictions Model notebook.
+
+4. Data Handling: The first run used the full cleaned dataset, while the second used SMOTE to balance the training set and reduce skew from overrepresented ratings.
+
+5. Hyperparameter Tuning: Limited manual tuning was performed due to computational constraints, and Grid Search was not fully implemented.
+
+6. Model Performance: None of the models, including more sophisticated ones, surpassed 36% accuracy, but re-balancing improved true positive prediction rates across all rating classes.
+
+7. Learning Outcome: The project consolidated learned concepts in Sacling to Production and Deep Learning modules and highlighted the importance of algorithm efficiency and data structure choices in the face of computational limitations.
+
+8. Future Improvements: Suggestions include using more balanced datasets, comprehensive hyperparameter tuning, deeper neural networks, and input from subject matter experts.
+
+
+9. Ethical Implications: Predicting product ratings could lead to biased recommendations if the model unintentionally amplifies existing biases in the data, potentially disadvantaging certain customer groups or promoting products unfairly
+=======
+
+6. Documentation:
+The machine learning pipeline from data preprocessing to model tuning was documented in the model doc, including the rationale behind feature selection, the steps taken for data cleaning, and the architecture of the neural network.
+
