@@ -183,8 +183,72 @@ Grid search was used to identify the best model parameters for the KNN model.
 4. Data Splitting:
 The dataset was split into training (80%) and test sets (20%).
 
+
 5. Ethical Considerations:
 Since we are working with sensitive demographic data such as gender and income and account IDs, we need to ensure there is control in place in terms of who will be able to access the data and the model output. 
+=======
+## Team Project Week 2 Video Links
+
+- Lynn: https://drive.google.com/file/d/1b2OYET_xIkvFSSFwHkNXgD5dbmj0dpPG/view?usp=sharing
+
+- Carlos: https://drive.google.com/file/d/1p7i6Y0lpDXFwGj0p9kL3hDumCS5P-CUn/view?usp=sharing
+
+
+## Team Project Week 2 - Machine Learning Model Guiding Questions
+
+- Lynn: 
+
+1. Objectives and Success Criteria:
+The primary objective is to predict sales based on customer demographics.Success is measured by minimizing prediction errors (e.g., mean squared error) and accurately categorizing customers into segments that drive the most sales.
+
+2. Feature Selection:
+Selected features are city, age, and income because they provide essential insights into customer demographics and purchasing power. 
+
+3. Handling Missing Values and Outliers:
+Ensured all missing values were handled through imputation techniques, and outliers were identified and either transformed or removed. Proper data cleaning ensured that the model could learn effectively without biases.
+
+4. Algorithm:
+Using a neural network model because of its ability to capture complex relationships between input and target variables. 
+
+5. Hyperparameter Tuning:
+Hyperparameter tuning method are used like Grid Search and by adjusting learning rates, batch sizes, and layer configurations. Cross-validation was also used to ensure that the model generalized well.
+
+4. Data Splitting:
+The dataset was split into training, validation, and test sets, with 20% of the data reserved for testing. This split ensures that the model’s performance is evaluated on unseen data and helps prevent overfitting.
+
+5. Ethical Considerations:
+Considered the potential biases, especially those related to demographic features like income and city to ensure that the model does not unfairly favor or disadvantage specific groups.
+
+
+6. Documentation:
+The machine learning pipeline from data preprocessing to model tuning was documented in the model doc, including the rationale behind feature selection, the steps taken for data cleaning, and the architecture of the neural network.
+
+
+- Carlos: 
+
+1. Objectives: This project section explores predicting future product ratings from retail transaction data to enhance business decisions.
+
+2. Business Applications: Potential uses include personalized recommendations, inventory management, targeted promotions, and loyalty program enhancements.
+
+3. Modeling Approach: Multiple classification models, including Logistic Regression, Random Forest, Gradient Boost, and Neural Networks, were tested in two runs. Detailed modelling steps and methodologt can be found in the Ratings Predictions Model notebook.
+
+4. Data Handling: The first run used the full cleaned dataset, while the second used SMOTE to balance the training set and reduce skew from overrepresented ratings.
+
+5. Hyperparameter Tuning: Limited manual tuning was performed due to computational constraints, and Grid Search was not fully implemented.
+
+6. Model Performance: None of the models, including more sophisticated ones, surpassed 36% accuracy, but re-balancing improved true positive prediction rates across all rating classes.
+
+7. Learning Outcome: The project consolidated learned concepts in Sacling to Production and Deep Learning modules and highlighted the importance of algorithm efficiency and data structure choices in the face of computational limitations.
+
+8. Future Improvements: Suggestions include using more balanced datasets, comprehensive hyperparameter tuning, deeper neural networks, and input from subject matter experts.
+
+
+9. Ethical Implications: Predicting product ratings could lead to biased recommendations if the model unintentionally amplifies existing biases in the data, potentially disadvantaging certain customer groups or promoting products unfairly
+=======
+
+6. Documentation:
+The machine learning pipeline from data preprocessing to model tuning was documented in the model doc, including the rationale behind feature selection, the steps taken for data cleaning, and the architecture of the neural network.
+
 
 6. Documentation:
 Documentation can be done through using markdowns and comments within the code blocks.
