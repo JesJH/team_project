@@ -94,5 +94,38 @@ Work periods will also be used as opportunities for teams to collaborate and wor
 * README: This file!
 * .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
 
-Team Project Week 1 Video Link Zoey: https://drive.google.com/file/d/1mFkRBGdUwbk8QBUrvyQ2JPL7VIjgmc-M/view?usp=drive_link
+Team Project Week 1 Video Link:
+Jes: https://www.youtube.com/watch?v=jW25EXwkkh8
+Katya: https://drive.google.com/file/d/1Mf_1ckG_bjio2REA2NCYTYtKZy-3ahVA/view?usp=sharing
+Zoey: https://drive.google.com/file/d/1mFkRBGdUwbk8QBUrvyQ2JPL7VIjgmc-M/view?usp=drive_link
+Lynn: https://drive.google.com/file/d/190gJv4thgMIOYNTUbpBMdbryMI_hBkTv/view?usp=drive_link
+Team Project Week 1 Video Links Jes: https://www.youtube.com/watch?v=jW25EXwkkh8
 
+Team Project Week 2 Video Links
+Zoey:https://drive.google.com/file/d/1N4SxhCxitP3amgxBcD44o1o8ThplfJwX/view?usp=drive_link
+
+Team Project Week 2 - Machine Learning Model Guiding Questions
+
+Objectives and Success Criteria:
+
+Objective: Segment customers based on demographic and purchase behavior
+Success Criteria: Success is measured by the interpretability of clusters and how well they separate customers into distinct segments.
+
+Feature Selection:
+Selected Age, Gender, Income, Total_Purchases, and Total_Amount for clustering.
+
+Handling Missing Values and Outliers:
+Handled missing values by dropping incomplete rows.
+Scaled all features to ensure that the clustering algorithm works effectively.
+
+Algorithm:
+K-Means Clustering was used to segment customers. The optimal number of clusters was determined using the Elbow method.
+
+Hyperparameter Tuning:
+The number of clusters (k) was selected based on the Elbow method.
+
+Data Splitting:
+The entire dataset was used for clustering as K-Means is unsupervised.
+
+Ethical Considerations:
+Categorical variables like gender were encoded without bias. Sensitive data was anonymized, ensuring privacy.
