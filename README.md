@@ -158,19 +158,72 @@ Categorical variables like gender were encoded without bias. Sensitive data was 
 - Zoey: https://drive.google.com/file/d/1mFkRBGdUwbk8QBUrvyQ2JPL7VIjgmc-M/view?usp=drive_link
 - Lynn: https://drive.google.com/file/d/190gJv4thgMIOYNTUbpBMdbryMI_hBkTv/view?usp=drive_link
 
-
-Team Project Week 1 Video Links
-Jes: https://www.youtube.com/watch?v=jW25EXwkkh8
-
 #### Approach
-Experiment with different machine learning models on the sales transaction data to identify customer segmentations and sales by each segment.
+Each team member will experiment with different machine learning models on the sales transaction data to build a variety of models that can be used to address business questions such as: what customer segmentation exists, whether we can predict product ratings, which variables are the best explanatory variable to predict sales.
 
 ### Rules of Engagement
-Making decisions as a group on next steps in the evening working sessions
-Documenting our thought process and required tasks for task assignment
-Notifying team members if you have difficulties with a task or meeting deadlines through Slack
-Daily touch points to discuss progress and adjust plans as needed to stay on schedule
+- Make decisions as a group on next steps in the evening working sessions
+- Document our thought process and required tasks for task assignment in a shared work folder
+- Notify team members of any difficulties with a task or meeting deadlines through Slack
+- Daily touch points during/after lectures to discuss progress and adjust plans as needed to stay on schedule
 
+## Team Project Week 2 Video Links
+
+- Lynn: https://drive.google.com/file/d/1b2OYET_xIkvFSSFwHkNXgD5dbmj0dpPG/view?usp=sharing
+- Jes: https://youtu.be/CjWY9WNeS0s
+
+## Team Project Week 2 - Machine Learning Model Guiding Questions
+
+- Lynn: 
+
+1. Objectives and Success Criteria:
+The primary objective is to predict sales based on customer demographics.Success is measured by minimizing prediction errors (e.g., mean squared error) and accurately categorizing customers into segments that drive the most sales.
+
+2. Feature Selection:
+I used all of the categorical data that is provided  
+
+3. Handling Missing Values and Outliers:
+Ensured all missing values were handled through imputation techniques, and outliers were identified and either transformed or removed. Proper data cleaning ensured that the model could learn effectively without biases.
+
+4. Algorithm:
+Using a neural network model because of its ability to capture complex relationships between input and target variables. 
+
+5. Hyperparameter Tuning:
+Hyperparameter tuning method are used like Grid Search and by adjusting learning rates, batch sizes, and layer configurations. Cross-validation was also used to ensure that the model generalized well.
+
+4. Data Splitting:
+The dataset was split into training, validation, and test sets, with 20% of the data reserved for testing. This split ensures that the model’s performance is evaluated on unseen data and helps prevent overfitting.
+
+5. Ethical Considerations:
+Considered the potential biases, especially those related to demographic features like income and city to ensure that the model does not unfairly favor or disadvantage specific groups.
+
+6. Documentation:
+The machine learning pipeline from data preprocessing to model tuning was documented in the model doc, including the rationale behind feature selection, the steps taken for data cleaning, and the architecture of the neural network.
+
+- Jes:
+
+1. Objectives and Success Criteria:
+The primary objective is to understand the underlying sales data and produce a reliable client segmentation model that can be used to segment new clients. Model accuracy will be assessed through accuracy score of the testing data.
+
+2. Feature Selection:
+I used demographic (age, income, location), transaction amount and product category. There are columns that are highly correlated. In the future, I'd want to attempt dimension reductionality techniques such as PCA or regularization.
+
+3. Handling Missing Values and Outliers:
+Missing values and outliers were handled in the initial data load stages.
+
+4. Algorithm:
+Used KNN model for its simplicity to assess whether a simple model is able to have high prediction accuracy.
+
+5. Hyperparameter Tuning:
+Grid search was used to identify the best model parameters for the KNN model.
+
+4. Data Splitting:
+The dataset was split into training (80%) and test sets (20%).
+
+
+5. Ethical Considerations:
+Since we are working with sensitive demographic data such as gender and income and account IDs, we need to ensure there is control in place in terms of who will be able to access the data and the model output. 
+=======
 ## Team Project Week 2 Video Links
 
 - Lynn: https://drive.google.com/file/d/1b2OYET_xIkvFSSFwHkNXgD5dbmj0dpPG/view?usp=sharing
@@ -236,7 +289,8 @@ The machine learning pipeline from data preprocessing to model tuning was docume
 The machine learning pipeline from data preprocessing to model tuning was documented in the model doc, including the rationale behind feature selection, the steps taken for data cleaning, and the architecture of the neural network.
 
 
--Zoey:
+
+- Zoey:
 Objectives and Success Criteria:
 Primary Goal: Segment customers based on their demographic and purchasing behavior, with a specific focus on categorizing income levels into low, medium, and high. This segmentation aims to enable targeted marketing strategies and personalized customer experiences.
 Success Criteria:
@@ -259,4 +313,8 @@ The number of clusters (k) was selected based on the Elbow method. and utilize P
 
 Data Splitting:
 Since K-Means is an unsupervised learning algorithm, the entire dataset was utilized for clustering. There was no need for traditional training and test splits as the algorithm does not rely on labeled data.
+
+=======
+6. Documentation:
+Documentation can be done through using markdowns and comments within the code blocks.
 
