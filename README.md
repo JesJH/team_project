@@ -267,13 +267,13 @@ Documentation can be done through using markdowns and comments within the code b
 
 - Kateryna Gogina:
 
-## Overview
+**Overview:**
 
 This project involves analyzing and predicting retail transaction data. The primary goal is to predict the Amount spent in transactions using various machine learning models, including Linear Regression, Random Forest, and Gradient Boosting.
 
 The project leverages several libraries for data manipulation, visualization, and machine learning, including pandas, numpy, matplotlib, scikit-learn, and stats models.
 
-## Table of Contents
+**Table of Contents:**
 
 1. Project Structure
 2. Data Description
@@ -284,14 +284,14 @@ The project leverages several libraries for data manipulation, visualization, an
 7. Results
 8. Conclusion
 
-### Project Structure
+**1. Project Structure:**
 
 The project contains the following files:
 
 - new_retail_data.csv: The dataset used for analysis and prediction.
 - README.md: This file.
 
-### Data Description
+**2. Data Description:**
 
 The dataset contains various attributes related to retail transactions, including:
 
@@ -309,7 +309,7 @@ The dataset contains various attributes related to retail transactions, includin
 - Ratings: Customer ratings for transactions.
 - Products: Details of the products purchased.
 
-Installation
+**3. Installation**
 
 1. Clone the repository:
 
@@ -322,7 +322,7 @@ pip install pandas matplotlib numpy scikit-learn statsmodels
 
 3. Place the new_retail_data.csv file in the data/ directory.
 
-### Usage
+**4. Usage:**
 
 1. Run the script:
 
@@ -342,33 +342,33 @@ python retail_data_analysis.py
   - Plots the results of model predictions and feature importance.
 - Observe the model evaluation metrics and visualizations.
 
-### Model Evaluation
+**5.Model Evaluation**
 
-# Linear Regression
+Linear Regression
 
 - Mean Absolute Error (MAE): 49.01
 - R-squared: 0.7756
 
-# Random Forest Regressor
+Random Forest Regressor
 
 - Mean Absolute Error (MAE): 0.0143
 - R-squared: 0.9999
 - Time Taken: 376 seconds
 
-# Gradient Boosting Regressor
+ Gradient Boosting Regressor
 
 - Mean Absolute Error (MAE): 7.68
 - R-squared: 0.9942
 
-### Feature Importance
+**6. Feature Importance**
 
 The script plots the feature importance scores for the Random Forest Regressor, which provides insights into the most influential features in predicting the transaction amount.
 
-### Results
+Results
 
 The Random Forest Regressor outperformed the other models, achieving near-perfect performance with an R-squared value of 0.9999. The Gradient Boosting Regressor also performed well, while Linear Regression had a comparatively lower R-squared value.
 
-### Conclusion
+**7. Conclusion**
 
 This project demonstrates the process of data analysis and prediction using various machine learning techniques. It highlights the importance of feature engineering, data preprocessing, and model evaluation in building effective predictive models.
 
