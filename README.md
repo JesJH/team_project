@@ -114,6 +114,43 @@ dev_Katya
 * .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
 
 
+Team Project Week 1 Video Link:
+Jes: https://www.youtube.com/watch?v=jW25EXwkkh8
+Katya: https://drive.google.com/file/d/1Mf_1ckG_bjio2REA2NCYTYtKZy-3ahVA/view?usp=sharing
+Zoey: https://drive.google.com/file/d/1mFkRBGdUwbk8QBUrvyQ2JPL7VIjgmc-M/view?usp=drive_link
+Lynn: https://drive.google.com/file/d/190gJv4thgMIOYNTUbpBMdbryMI_hBkTv/view?usp=drive_link
+Team Project Week 1 Video Links Jes: https://www.youtube.com/watch?v=jW25EXwkkh8
+
+Team Project Week 2 Video Links
+Zoey:https://drive.google.com/file/d/1N4SxhCxitP3amgxBcD44o1o8ThplfJwX/view?usp=drive_link
+
+Team Project Week 2 - Machine Learning Model Guiding Questions
+
+Objectives and Success Criteria:
+
+Objective: Segment customers based on demographic and purchase behavior
+Success Criteria: Success is measured by the interpretability of clusters and how well they separate customers into distinct segments.
+
+Feature Selection:
+Selected Age, Gender, Income, Total_Purchases, and Total_Amount for clustering.
+
+Handling Missing Values and Outliers:
+Handled missing values by dropping incomplete rows.
+Scaled all features to ensure that the clustering algorithm works effectively.
+
+Algorithm:
+K-Means Clustering was used to segment customers. The optimal number of clusters was determined using the Elbow method.
+
+Hyperparameter Tuning:
+The number of clusters (k) was selected based on the Elbow method.
+
+Data Splitting:
+The entire dataset was used for clustering as K-Means is unsupervised.
+
+Ethical Considerations:
+Categorical variables like gender were encoded without bias. Sensitive data was anonymized, ensuring privacy.
+=======
+
 ### Team Project Week 1 Video Links
 
 - Jes: https://www.youtube.com/watch?v=jW25EXwkkh8
@@ -193,6 +230,8 @@ Since we are working with sensitive demographic data such as gender and income a
 
 - Carlos: https://drive.google.com/file/d/1p7i6Y0lpDXFwGj0p9kL3hDumCS5P-CUn/view?usp=sharing
 
+- Zoey: https://drive.google.com/file/d/1N4SxhCxitP3amgxBcD44o1o8ThplfJwX/view?usp=drive_link
+
 
 ## Team Project Week 2 - Machine Learning Model Guiding Questions
 
@@ -250,5 +289,32 @@ The machine learning pipeline from data preprocessing to model tuning was docume
 The machine learning pipeline from data preprocessing to model tuning was documented in the model doc, including the rationale behind feature selection, the steps taken for data cleaning, and the architecture of the neural network.
 
 
+
+- Zoey:
+Objectives and Success Criteria:
+Primary Goal: Segment customers based on their demographic and purchasing behavior, with a specific focus on categorizing income levels into low, medium, and high. This segmentation aims to enable targeted marketing strategies and personalized customer experiences.
+Success Criteria:
+Interpretability of Clusters: The effectiveness of clustering is evaluated based on how clearly the clusters differentiate between distinct customer segments. Clusters should represent meaningful and actionable groupings.
+Cluster Separation: Success is also measured by the degree of separation between clusters, assessed using metrics like the Silhouette Score. Higher Silhouette Scores indicate better-defined and more distinct clusters.
+Business Impact: The segmentation should lead to actionable insights that drive marketing strategies, improve customer engagement, and ultimately enhance sales performance.
+
+Feature Selection:
+Selected Age, Gender, Income, Total_Purchases, and Total_Amount for clustering.
+
+Handling Missing Values and Outliers:
+Handled missing values by dropping incomplete rows.
+Scaled all features to ensure that the clustering algorithm works effectively.
+
+Algorithm:
+K-Means Clustering was used to segment customers. The optimal number of clusters was determined using the Elbow method.
+
+Hyperparameter Tuning:
+The number of clusters (k) was selected based on the Elbow method. and utilize PCA to readuce the number of features
+
+Data Splitting:
+Since K-Means is an unsupervised learning algorithm, the entire dataset was utilized for clustering. There was no need for traditional training and test splits as the algorithm does not rely on labeled data.
+
+=======
 6. Documentation:
 Documentation can be done through using markdowns and comments within the code blocks.
+
